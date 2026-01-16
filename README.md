@@ -1,6 +1,6 @@
 
 
-**CRISPR‑AI: Deep Learning for CRISPR‑Cas9 Off‑Target Prediction**
+****CRISPR‑AI: Deep Learning for CRISPR‑Cas9 Off‑Target Prediction****
 
 This repo contains the code and result files used in my MSc thesis on CRISPR‑Cas9 off‑target prediction with deep learning and genetic‑algorithm hyperparameter optimisation. It focuses on three architectures (GRU, BiLSTM, CNN‑BiLSTM) trained on the DeepCRISPR dataset using 4‑channel one‑hot encoding and evaluated mainly with AUPRC under severe class imbalance.
 ​
@@ -23,6 +23,10 @@ step4c_bilstm_memory_optimized.py – BiLSTM training with GA‑constrained hidd
 step4c_true_ga_4MODELS.py – Genetic‑algorithm driver: evolves hyperparameters for GRU, BiLSTM and CNN‑BiLSTM using validation AUPRC as fitness.
 
 step6_random_search_test.py – Random‑search baseline over the same architectures and hyperparameter ranges, used to compare with GA.
+
+
+
+
 ​
 
 3. Final Evaluation Scripts
@@ -46,6 +50,5 @@ fig6_cnn_filters.jpg – CNN filter analysis: information content and filter str
 
 fig7_bio_alignment.jpg – Biological alignment scores and position heatmap (seed/PAM vs distal).
 and some other images too related to the pre stages of project. ​
+**NOTE: As this is my first time using github that is why this sort of looks unsettling. **
 
-
-Marking-grades-criteria.docx – University marking rubric used to align the work with MSc assessment criteria.
